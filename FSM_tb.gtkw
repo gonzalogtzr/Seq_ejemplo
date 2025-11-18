@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sat Nov 15 19:38:01 2025
+[*]
+[dumpfile] "/Users/gonzalogutierrez/Library/CloudStorage/OneDrive-InstitutoTecnologicoydeEstudiosSuperioresdeMonterrey/Slides_Gerardo/Examples/Seq_ejemplo/FSM_tb.vcd"
+[dumpfile_mtime] "Sat Nov 15 19:31:38 2025"
+[dumpfile_size] 1650
+[savefile] "/Users/gonzalogutierrez/Library/CloudStorage/OneDrive-InstitutoTecnologicoydeEstudiosSuperioresdeMonterrey/Slides_Gerardo/Examples/Seq_ejemplo/FSM_tb.gtkw"
+[timestart] 126
+[size] 1440 777
+[pos] 1919 75
+*-5.191034 235 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] FSM_tb.
+[sst_width] 255
+[signals_width] 177
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+FSM_tb.clk
+FSM_tb.reset
+FSM_tb.data_in
+@200
+-States
+@28
+FSM_tb.DUT.current_state[1:0]
+FSM_tb.DUT.next_state[1:0]
+@29
+FSM_tb.data_out
+[pattern_trace] 1
+[pattern_trace] 0

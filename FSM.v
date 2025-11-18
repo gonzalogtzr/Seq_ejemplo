@@ -39,28 +39,28 @@ begin
     case(current_state)
         State0:
         begin
-            if(x==1)
+            if(data_in==1)
                 next_state = State1;
             else
                 next_state = State0;
         end
         State1:
         begin
-            if(x==1)
+            if(data_in==1)
                 next_state = State1;
             else
                 next_state = State2;
         end
         State2:
         begin
-            if(x==1)
+            if(data_in==1)
                 next_state = State3;
             else
                 next_state = State2;
         end
         State3:
         begin
-            if(x==1)
+            if(data_in==1)
                 next_state = State0;
             else
                 next_state = State3;
@@ -74,8 +74,9 @@ end
 // Segundo always para cambio de salidas
 always @(*) //(current_state, data_in)
 begin
-
+    
     data_out = 0; //Valor por default
+
 
     case(current_state)
         State0:
